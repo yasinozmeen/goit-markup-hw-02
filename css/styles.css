@@ -20,7 +20,7 @@ ul {
   text-align: justify;
 }
 
-head .logo {
+header .logo {
   font-family: "Raleway", sans-serif;
   color: #2e2f42;
   vertical-align: middle;
@@ -31,29 +31,42 @@ head .logo {
 }
 
 .menu_nav {
+  font-family: Roboto;
   font-weight: 500;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-  color: #2e2f42;
+  color: rgba(46, 47, 66, 1);
+}
+.menu_nav:hover,
+:active {
+  color: rgba(64, 75, 191, 1);
 }
 
-address {
+address a {
   line-height: 24px;
   letter-spacing: 2%;
   font-style: normal;
+  color: rgba(67, 68, 85, 1);
 }
-
-address .mail {
-  color: #2e2f42;
-}
-
-address .tel {
-  color: #434455;
+address a:hover,
+:active {
+  color: rgba(64, 75, 191, 1);
 }
 
 .hero_image {
   background-color: #2e2f42;
   color: #ffffff;
+  text-align: center;
+  height: 660px;
+}
+
+.hero_image h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
   text-align: center;
 }
 
@@ -64,6 +77,16 @@ address .tel {
   vertical-align: middle;
   letter-spacing: 4%;
   line-height: 24px;
+  border-style: none;
+  font-size: 16px;
+  color: #fff;
+  width: 169px;
+  height: 56px;
+}
+
+.hero_image_button:hover {
+  cursor: pointer;
+  background-color: rgba(64, 75, 191, 1);
 }
 
 .future_title {
@@ -83,6 +106,13 @@ address .tel {
   background-color: rgba(244, 244, 253, 1);
 }
 
+.section_2 li {
+  width: 264px;
+}
+
+.section_2_text {
+  background-color: white;
+}
 .section_2_name {
   color: rgba(46, 47, 66, 1);
   font-weight: 500;
