@@ -12,7 +12,15 @@ header {
   background-color: #fff;
 }
 
+ul {
+  list-style: none;
+}
+
 .logo {
+  text-align: justify;
+}
+
+head .logo {
   font-family: "Raleway", sans-serif;
   color: #2e2f42;
   vertical-align: middle;
@@ -56,4 +64,71 @@ address .tel {
   vertical-align: middle;
   letter-spacing: 4%;
   line-height: 24px;
+}
+
+.future_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+
+.future_text {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(67, 68, 85, 1);
+}
+
+.section_2 {
+  background-color: rgba(244, 244, 253, 1);
+}
+
+.section_2_name {
+  color: rgba(46, 47, 66, 1);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.section_2_job_title {
+  line-height: 24px;
+  text-align: center;
+  color: rgba(67, 68, 85, 1);
+}
+
+.section_3_title {
+  color: rgba(46, 47, 66, 1);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.section_3_app_name {
+  color: rgba(46, 47, 66, 1);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.section_3_app_ctg {
+  color: rgba(67, 68, 85, 1);
+  line-height: 24px;
+}
+
+footer {
+  background-color: rgba(46, 47, 66, 1);
+  color: rgba(244, 244, 253, 1);
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+footer .logo {
+  color: rgba(244, 244, 253, 1);
 }
